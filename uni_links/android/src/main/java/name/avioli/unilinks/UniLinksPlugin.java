@@ -62,6 +62,7 @@ public class UniLinksPlugin
                 } else {
                     events.success(dataString);
                 }
+                intent.setData(null);
             }
         };
     }
